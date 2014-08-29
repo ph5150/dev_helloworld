@@ -6,13 +6,17 @@
 // @@Description:
 //
 //
-// @@Dev:
+// @@Dev:bizarro
 // @@Fecha:
 // @@Version:
 // @@Revision:
 // 
 //**********************************************************************************
 
+class cHelloWorld{
+  public $mensaje = "hello world!";
+} //endsw
 
-echo "hello world! \n";
+$obj = new cHelloWorld;
+echo $obj->mensaje; 
 ?>
